@@ -3,11 +3,9 @@ import React, { useState } from 'react'
 
 export default function Test() {
     const[data,setdata]=useState("");
-    const[data1,add]=useState("");
     function TestFunction(){
         console.log("Test Function Called")
         setdata("Yes i Am Button")
-        add("fuck u")
 
     }
   return (
